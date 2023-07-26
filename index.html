@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Exemplo HTML, CSS e JavaScript unificado</title>
+    <style>
+        #borderDemo {
+            border: 16px ridge rgba(245, 101, 149, 0.41);
+            padding: 20px;
+            text-align: center;
+            font-size: 33px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="borderDemo">Bem vindo ão meu primeiro site</div>
+
+    <script>
+        // Função que será executada quando a div for clicada
+        function changeText() {
+            var div = document.getElementById("borderDemo");
+            div.textContent = "Clicado!";
+        }
+
+        // Adiciona um evento de clique à div
+        var divElement = document.getElementById("borderDemo");
+        divElement.addEventListener("click", changeText);
+    </script> Olá, meu nome é Cely, tenho 23 anos e estou cursando TI na Apeti, e cursando o 3 ano do ensino médio 
+    
+</body>
+
+</html>
+
